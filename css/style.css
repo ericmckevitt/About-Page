@@ -1,0 +1,417 @@
+footer {
+    background-color: #FAECED;
+    height:160px;
+    margin-top:60px;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.bg-blue {
+    background-color: #C8DFE0;
+}
+
+.bg-pink {
+    background-color: #F2D0D3;
+}
+
+.shadow {
+    box-shadow: 10px 10px 5px grey;
+}
+
+.webshadow {
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.tall-nav {
+    height: 115px;
+}
+
+.nav-logo {
+    width:115px;
+    height:81px;
+    transition-duration: 500ms;
+}
+
+.nav-logo:hover {
+    transform: scale(1.05);
+    
+}
+
+.navtext-vert {
+    padding-top: 32px;
+    transition-duration: 500ms;
+}
+
+.navtext-vert:hover {
+    
+    transform: matrix(1.5, 0,0,1.5,0,-15);
+}
+
+.navtext-horizontal {
+    padding-left:10px; 
+    padding-right: 10px;
+}
+
+.text-white {
+    color: white;
+}
+
+.hover-color {
+    color:white;
+}
+
+.hover-color:hover {
+    color:#708090;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #708090 !important;
+    
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+    
+}
+
+.active {
+    color: #708090;
+    
+}
+
+.nav-fade {
+    transition-duration: 300ms;
+}
+
+.ig-logo {
+    padding-top:0px;
+    padding-right: 10px;
+}
+
+.nav-text-shadow {
+    font-size: medium;
+    text-shadow: 2px 3px 2px rgba(150, 150, 150, 0.6);
+}
+
+.main-container {
+    margin: auto;
+    width: 65%;
+    /* background-color: #e2b3b3; */
+
+    padding-top: 145px;
+    
+}
+
+.center {
+    text-align: center;
+}
+
+.video-height {
+    background-color: white;
+    border-style: none;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    */
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left:0px;
+    
+    /*margin-top: auto;
+    height: 260px;*/
+
+
+    
+
+}
+
+.push-left {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.vid-desc-text {
+    font-size: 60px;
+}
+
+.shadow-defined {
+    -webkit-box-shadow: -20px 20px 0px 0px rgba(186,172,173,1);
+    -moz-box-shadow: -20px 20px 0px 0px rgba(186,172,173,1);
+    box-shadow: -20px 20px 0px 0px rgba(186,172,173,1);
+}
+
+.tiny-border {
+    margin-top: 10px;
+    padding-top:0px;
+    border-style: inset;
+    border-color: #ffffff;
+    
+    border-width: 2px;
+}
+
+.auto-margins {
+    margin-top: 9px;
+    margin-bottom:5px;
+    text-align: center;
+}
+
+.box-text {
+    font-size: 60px;
+}
+
+.vid-box {
+    /*background:white;
+    border: solid black 2px;*/
+    display: block;
+    margin: 10 auto;
+    width: 500px;
+    height: 300px;
+    
+}
+
+.center-vid {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+
+    /*
+    padding-left:15%;
+    padding-right:15%;*/
+}
+
+.center-vertical {
+    margin: auto;
+    
+}
+
+.trans-y {
+    transform: translateY(-12%);
+}
+
+.center-item {
+    align-items: center;
+    justify-content: center;
+}
+
+.bounds {
+    background: gray;
+    border: solid black 2px;
+}
+
+.bounds-red {
+    border: solid red 2px;
+}
+
+.map-dim {
+    
+    justify-content: center;
+    align-items: center;
+    overflow: show;
+    width: 100%;
+    height:auto;
+    
+}
+
+.trans-x-50 {
+    transform: translateX(17%);
+}
+
+.button-style1 {
+	box-shadow: -2px 2px 0px 0px #0f0f0f;
+	background-color:#ffffff;
+	border:1px solid #1c1a1c;
+	display:inline-block;
+	cursor:pointer;
+	color:#050505;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 31px;
+    text-decoration:none;
+    /*width:80%;*/
+    width: 100%;
+    
+}
+.button-style1:hover {
+    background-color:#000000;
+    color:white;
+
+    /* TRANSITIONS*/
+    border-color: black;
+    box-shadow: 0px 0px 0px 0px black;
+}
+.button-style1:active {
+	position:relative;
+	top:1px;
+}
+
+.button-center {
+    margin:0 auto;
+    display:block;
+    align-content: center;
+}
+
+.condensed-container {
+    
+    margin:auto;
+    width:66%;
+    align-content: center;
+}
+
+.subscribe {
+    background: white;
+    padding-top:80px;
+    padding-bottom:100px;
+    padding-left:30px;
+    padding-right: 30px;
+    width:75%;
+    align-content: center;
+    margin: auto;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.email-textbox {
+    width:66%;
+    padding-left:20%;
+}
+
+.initial-padding {
+    padding-top:110px;
+}
+
+.initiative-text {
+    width:80%;
+    height: 205px;
+    margin:auto;
+    border-bottom: solid white 2px;
+    text-shadow: -2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+.bottom-shadow {
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -6px #222;
+}
+
+.col-condense {
+    width:50%;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.about-subtitle {
+    font-size: 300%;
+    color:white;
+    text-shadow: -1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.about-main {
+    width:80%;
+    margin:auto;
+    
+}
+
+.padding-right {
+    padding-right:30px;
+    line-height: 35px;
+}
+
+.padding-left {
+    padding-left: 30px;
+    line-height: 35px;
+}
+
+.about-subtitle-box {
+    height: 400px;
+}
+
+.abt-txt-shadow {
+    text-shadow: -1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.trans-abt-img {
+    transform: translateX(51%);
+    width:55%;
+    overflow: show;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+    padding-top:20px;
+    margin: auto;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: white;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.about-img-box {
+    height: 600px;
+}
+
+.profile-text {
+    line-height: 60%;
+}
+
+.abt-contain-no-auto {
+    width: 80%;
+}
+
+.profile-container {
+    height:650px;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
